@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Art Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <div class="artwork" onclick="showArtwork('art1')">
+                <img src="assets/art1.jpg" alt="Artwork 1">
+                <p>Artwork 1</p>
+            </div>
+            <div class="artwork" onclick="showArtwork('art2')">
+                <img src="assets/art2.png" alt="Artwork 2">
+                <p>Artwork 2</p>
+            </div>
+            <!-- Add more artworks as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Art Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
